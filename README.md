@@ -38,7 +38,7 @@ ticket/severity
 
 * block - blocks new code to be written or prevents it to function, transformed to "status.important" label
 
-*not-a-bug - this is not a bug, transformed to "status.dismissed" label
+* not-a-bug - this is not a bug, transformed to "status.dismissed" label
 
 ticket/priority
 
