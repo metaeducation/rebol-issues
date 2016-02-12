@@ -22,31 +22,31 @@ In CureCode, there are fields like ticket/type, ticket/version, ticket/platform,
 
 ticket/type
 
-*bug - the ticket describes a bug, transformed to "type.bug" label
+* bug - the ticket describes a bug, transformed to "type.bug" label
 
-*wish - the ticket describes a wish, transformed to "type.wish" label
+* wish - the ticket describes a wish, transformed to "type.wish" label
 
-*note - the ticket is a note, transformed to "type.note" label
+* note - the ticket is a note, transformed to "type.note" label
 
-*nuts - ??, transformed to "type.alien" label
+* nuts - ??, transformed to "type.alien" label
 
 ticket/severity
 
-*major - the resolution would require major changes to existing code, transformed to "status.important" label
+* major - the resolution would require major changes to existing code, transformed to "status.important" label
 
-*crash - the issue discusses interpreter crash, transformed to "status.important" label
+* crash - the issue discusses interpreter crash, transformed to "status.important" label
 
-*block - blocks new code to be written or prevents it to function, transformed to "status.important" label
+* block - blocks new code to be written or prevents it to function, transformed to "status.important" label
 
 *not-a-bug - this is not a bug, transformed to "status.dismissed" label
 
 ticket/priority
 
-*high - high priority, transformed to "status.important" label
+* high - high priority, transformed to "status.important" label
 
-*urgent - urgent priority, transformed to "status.important" label
+* urgent - urgent priority, transformed to "status.important" label
 
-*immediate - immediate priority, transformed to "status.important" label
+* immediate - immediate priority, transformed to "status.important" label
 
 #### CureCode fields not ported
 
@@ -54,62 +54,62 @@ ticket/version - Specifies the version affected by the issue.
 
 ticket/platform - Specifies the platform on which the issue occurs.
 
-*all - all platforms are affected
+* all - all platforms are affected
 
 ticket/status
 
-*submitted - ticket was not reviewed yet
+* submitted - ticket was not reviewed yet
 
-*reviewed - ticket is being reviewed
+* reviewed - ticket is being reviewed
 
-*problem - there is something problematic about this issue, which needs to be resolved, before it can become actionable
+* problem - there is something problematic about this issue, which needs to be resolved, before it can become actionable
 
-*waiting - waiting for other tickets being resolved, waiting for a good name, etc.
+* waiting - waiting for other tickets being resolved, waiting for a good name, etc.
 
-*deferred - revisit later
+* deferred - revisit later
 
-*dismissed - the ticket has been dismissed
+* dismissed - the ticket has been dismissed
 
-*pending - the pull request resolving the ticket has been submitted and it is waiting for merge
+* pending - the pull request resolving the ticket has been submitted and it is waiting for merge
 
-*built - the resolution has been built
+* built - the resolution has been built
 
-*tested - the resolution is being tested
+* tested - the resolution is being tested
 
-*complete - the ticket has been resolved completely
+* complete - the ticket has been resolved completely
 
 ticket/category
 
-*documentation
+* documentation
 
-*evaluation
+* evaluation
 
-*mezzanine
+* mezzanine
 
-*native
+* native
 
-*datatype
+* datatype
 
-*math
+* math
 
-*parse
+* parse
 
-*ports
+* ports
 
-*graphics
+* graphics
 
-*syntax
+* syntax
 
-*security
+* security
 
-*error handling
+* error handling
 
-*console
+* console
 
-*platform
+* platform
 
-*extensions
+* extensions
 
-*host-kit
+* host-kit
 
-*chat
+* chat
